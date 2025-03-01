@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="bg-[#F4F7FF]">
+
+<main class="container mx-auto h-screen">
+    <nav class="py-6">
+        <div class="navbar bg-base-100 shadow-sm p-5 rounded-2xl">
+            <div class="flex-1">
+                <div class="flex items-center">
+                    <img src="assets/logo.png" alt="" />
+                    <a class="btn btn-ghost text-4xl font-light"
+                      >Dev<span class="font-bold">Board</span></a
+                    >
+                  </div>
+            </div>
+            <div class="flex-none">
+              <button id="back-btn" class="btn px-5 py-3 bg-blue-700 text-white rounded-md font-bold">Back To Desk</button>
+            </div>
+          </div>
+    </nav>
+
+    <section>
+        <div class="space-y-6">
+            <div class="rounded-lg bg-white">
+                <h1 class="p-4 text-xl font-bold border-b-2 border-dashed">Question-1: What are the different ways to select an element in the DOM?</h1>
+                <p class="p-4">To select an element we can use quarySelector, quaryselectorAll, getElementByClassName, getElementById, getElementByTagName.</p>
+            </div>
+            <div class="rounded-lg bg-white">
+                <h1 class="p-4 text-xl font-bold border-b-2 border-dashed">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
+                <p class="p-4">To select an element we can use quarySelector, quaryselectorAll, getElementByClassName, getElementById, getElementByTagName.</p>
+            </div>
+            <div class="rounded-lg bg-white">
+                <h1 class="p-4 text-xl font-bold border-b-2 border-dashed">Question-3: What is event delegation in the DOM?</h1>
+                <p class="p-4">To select an element we can use quarySelector, quaryselectorAll, getElementByClassName, getElementById, getElementByTagName.</p>
+            </div>
+            <div class="rounded-lg bg-white">
+                <h1 class="p-4 text-xl font-bold border-b-2 border-dashed">Question-4: What is event bubbling in the DOM?</h1>
+                <p class="p-4">To select an element we can use quarySelector, quaryselectorAll, getElementByClassName, getElementById, getElementByTagName.</p>
+            </div>
+            <div class="rounded-lg bg-white">
+                <h1 class="p-4 text-xl font-bold border-b-2 border-dashed">Question-5: How do you create, add, and remove elements using JavaScript?</h1>
+                <p class="p-4">To select an element we can use quarySelector, quaryselectorAll, getElementByClassName, getElementById, getElementByTagName.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<script src="script/today.js"></script>
 </body>
 </html>
