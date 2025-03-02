@@ -56,7 +56,8 @@ for(let i = 0; i < completeBtn.length; i++){
             taskContainer.appendChild(div);
 
             const taskContainerLength =  taskContainer.childNodes.length
-            if(taskContainerLength === 7){
+            console.log(taskContainerLength);
+            if(taskContainerLength === 6){
                 alert("Congrates!!! You have complete all the task");
             }
             
